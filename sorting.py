@@ -1,13 +1,13 @@
 def swap(alist, index):
-    '''
+    ''' 
     This function swaps two items in a list.  
     
     The function takes a list and an index as inputs, and out outputs a list with two items swapped
     '''
     a = alist[index] # sets the variable and puts the indexth item of alist into it.
-    b = alist[index+1]
-    alist[index] = b
-    alist[index+1] = a
+    b = alist[index+1] #sets the variable and puts the indexth item +1 of blist into it.
+    alist[index] = b # set the index of alist to b
+    alist[index+1] = a#
     return (alist)
 
 def bsort(alist):
